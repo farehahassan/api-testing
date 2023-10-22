@@ -38,9 +38,9 @@ export default function page() {
 
   return (
     <div>
-      <h1>HEHEHEH</h1>
+      <h1>APi generated comments</h1>
       {comment.map((item) => (
-        <h3>{item.postId}</h3>
+        <h4>{item.body}</h4>
       ))}
     </div>
   );

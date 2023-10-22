@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
     
-      <div className={styles.center}>
+      {/* <div className={styles.center}>
         <Image
           className={styles.logo}
           src="/next.svg"
@@ -16,8 +16,9 @@ export default function Home() {
           height={37}
           priority
         />
-      </div>
+      </div> */}
       <Link href={"/api/commentsList"}> <h1> go to comments</h1></Link>
+      <Link href={"/api/rapidApi"}> <h1> go to RapidAPI section</h1></Link>
 
      
     </main>
