@@ -19,6 +19,7 @@ export default function Home() {
       </div> */}
       <Link href={"/api/commentsList"}> <h1> go to comments</h1></Link>
       <Link href={"/api/rapidApi"}> <h1> go to RapidAPI section</h1></Link>
+      <Link href={"/dynamicRoutes"}> <h1> go to Dynamic Routes section</h1></Link>
 
      
     </main>
